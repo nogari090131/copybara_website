@@ -73,7 +73,7 @@ export default function CapybaraClubWebsite() {
           </motion.p>
 
           <motion.a
-            href="https://docs.google.com/forms/d/1kORX8uw8n2cuu4SrOAk_aij9P-F02hiCNtMHooH9LS8/viewform"
+            href="https://tally.so/r/A7ljBz"
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, scale: 0.8 }}
@@ -162,61 +162,61 @@ export default function CapybaraClubWebsite() {
           className="py-20 px-6 text-center"
         >
           <h3 className="text-3xl font-bold mb-6">가입 신청</h3>
-          <p className="mb-6 text-lg">아래 버튼을 눌러 구글폼을 작성해주세요.</p>
-          <a
-            href="https://docs.google.com/forms/d/1kORX8uw8n2cuu4SrOAk_aij9P-F02hiCNtMHooH9LS8/viewform"
+          <p className="mb-6 text-lg">아래 버튼을 눌러 형식을 작성해주세요.</p>
+          <a>
+            href="https://tally.so/r/A7ljBz"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-2xl shadow-xl inline-block"
-          >
-            구글폼 작성하기
+            형식 작성하기
           </a>
-        </motion.section>
+      </motion.section>
 
-        <motion.section
-          id="contact"
-          variants={fadeUp}
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: true }}
-          className="py-24 px-6 bg-white text-center"
-        >
-          <h3 className="text-3xl font-bold mb-12">문의하기</h3>
+      <motion.section
+        id="contact"
+        variants={fadeUp}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true }}
+        className="py-24 px-6 bg-white text-center"
+      >
+        <h3 className="text-3xl font-bold mb-12">문의하기</h3>
 
-          <div className="flex justify-center gap-10 flex-wrap">
-            <div className="bg-pink-50 p-8 rounded-3xl shadow-lg w-80 hover:scale-105 transition">
-              <h4 className="text-xl font-bold mb-2">👑 동아리 부장</h4>
-              <p className="mb-4 text-sm text-gray-500">@zworvx</p>
-              <a
-                href="https://instagram.com/zworvx"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-pink-500 hover:bg-pink-600 text-white px-6 py-3 rounded-2xl shadow-md inline-block"
-              >
-                인스타 바로가기
-              </a>
-            </div>
-
-            <div className="bg-purple-50 p-8 rounded-3xl shadow-lg w-80 hover:scale-105 transition">
-              <h4 className="text-xl font-bold mb-2">⭐ 동아리 차장</h4>
-              <p className="mb-4 text-sm text-gray-500">@nhj_.hz</p>
-              <a
-                href="https://instagram.com/nhj_.hz"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-purple-500 hover:bg-purple-600 text-white px-6 py-3 rounded-2xl shadow-md inline-block"
-              >
-                인스타 바로가기
-              </a>
-            </div>
+        <div className="flex justify-center gap-10 flex-wrap">
+          <div className="bg-pink-50 p-8 rounded-3xl shadow-lg w-80 hover:scale-105 transition">
+            <h4 className="text-xl font-bold mb-2">👑 동아리 부장</h4>
+            <p className="mb-4 text-sm text-gray-500">@zworvx</p>
+            <a
+              href="https://instagram.com/zworvx"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-pink-500 hover:bg-pink-600 text-white px-6 py-3 rounded-2xl shadow-md inline-block"
+            >
+              인스타 바로가기
+            </a>
           </div>
-        </motion.section>
 
-        <footer className="bg-gray-800 text-white text-center py-6">
-          © 2026 구암고등학교 카피바라 동아리
-        </footer>
+          <div className="bg-purple-50 p-8 rounded-3xl shadow-lg w-80 hover:scale-105 transition">
+            <h4 className="text-xl font-bold mb-2">⭐ 동아리 차장</h4>
+            <p className="mb-4 text-sm text-gray-500">@nhj_.hz</p>
+            <a
+              href="https://instagram.com/nhj_.hz"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-purple-500 hover:bg-purple-600 text-white px-6 py-3 rounded-2xl shadow-md inline-block"
+            >
+              인스타 바로가기
+            </a>
+          </div>
+        </div>
+      </motion.section>
 
-      </div>
+      <footer className="bg-gray-800 text-white text-center py-6">
+        © 2026 구암고등학교 카피바라 동아리
+      </footer>
+
+    </div >
     </>
-  )
+            )
 }
+
