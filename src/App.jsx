@@ -65,7 +65,7 @@ export default function CapybaraClubWebsite() {
         </motion.p>
 
         <motion.a
-          href="https://docs.google.com/forms/d/1kORX8uw8n2cuu4SrOAk_aij9P-F02hiCNtMHooH9LS8/viewform"
+          href="https://tally.so/r/A7ljBz"
           target="_blank"
           rel="noopener noreferrer"
           initial={{ opacity: 0, scale: 0.8 }}
@@ -154,14 +154,14 @@ export default function CapybaraClubWebsite() {
         className="py-20 px-6 text-center"
       >
         <h3 className="text-3xl font-bold mb-6">가입 신청</h3>
-        <p className="mb-6 text-lg">아래 버튼을 눌러 구글폼을 작성해주세요.</p>
+        <p className="mb-6 text-lg">아래 버튼을 눌러 신청서를 작성해주세요.</p>
         <a
-          href="https://docs.google.com/forms/d/1kORX8uw8n2cuu4SrOAk_aij9P-F02hiCNtMHooH9LS8/viewform"
+          href="https://tally.so/r/A7ljBz"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-2xl shadow-xl inline-block"
         >
-          구글폼 작성하기
+          신청서 작성하기
         </a>
       </motion.section>
 
