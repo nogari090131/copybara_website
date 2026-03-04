@@ -28,7 +28,7 @@ export default function CapybaraClubWebsite() {
   })
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-yellow-50 to-orange-100 text-gray-800">
+    <div className="min-h-screen bg-gradient-to-b from-yellow-50 to-orange-100 text-amber-900">
       <motion.div
         style={{ scaleX }}
         className="fixed top-0 left-0 right-0 h-1 bg-yellow-400 origin-left z-50"
@@ -37,10 +37,10 @@ export default function CapybaraClubWebsite() {
       <header className="p-6 flex justify-between items-center bg-white shadow-md sticky top-0 z-40">
         <h1 className="text-2xl font-bold">🐹 구암고 카피바라</h1>
         <nav className="space-x-6 text-sm font-medium hidden md:flex">
-          <a href="#about" className="hover:text-orange-500">동아리 소개</a>
-          <a href="#activities" className="hover:text-orange-500">활동 내용</a>
-          <a href="#apply" className="hover:text-orange-500">가입 신청</a>
-          <a href="#contact" className="hover:text-orange-500">문의</a>
+          <a href="#about" className="hover:text-amber-900">동아리 소개</a>
+          <a href="#activities" className="hover:text-amber-900">활동 내용</a>
+          <a href="#apply" className="hover:text-amber-900">가입 신청</a>
+          <a href="#contact" className="hover:text-amber-900">문의</a>
         </nav>
       </header>
 
@@ -177,7 +177,7 @@ export default function CapybaraClubWebsite() {
 
         <div className="flex justify-center gap-10 flex-wrap">
           <div className="bg-pink-50 p-8 rounded-3xl shadow-lg w-80 hover:scale-105 transition">
-            <h4 className="text-xl font-bold mb-2">👑 동아리 부장</h4>
+            <h4 className="text-xl font-bold mb-2"> 동아리 부장</h4>
             <p className="mb-4 text-sm text-gray-500">@zworvx</p>
             <a
               href="https://instagram.com/zworvx"
@@ -190,7 +190,7 @@ export default function CapybaraClubWebsite() {
           </div>
 
           <div className="bg-purple-50 p-8 rounded-3xl shadow-lg w-80 hover:scale-105 transition">
-            <h4 className="text-xl font-bold mb-2">⭐ 동아리 차장</h4>
+            <h4 className="text-xl font-bold mb-2"> 동아리 차장</h4>
             <p className="mb-4 text-sm text-gray-500">@nhj_.hz</p>
             <a
               href="https://instagram.com/nhj_.hz"
